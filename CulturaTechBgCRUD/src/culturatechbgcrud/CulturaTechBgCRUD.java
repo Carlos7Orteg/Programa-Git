@@ -6,6 +6,7 @@ package culturatechbgcrud;
 
 import java.sql.Connection;
 import dao.EventoDAO;
+import model.Evento;
 import util.ConexionBD;
 
 public class CulturaTechBgCRUD {
@@ -13,17 +14,26 @@ public class CulturaTechBgCRUD {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
+
         try (Connection conexion = ConexionBD.conectar()) {
-            
+
             EventoDAO eventoDAO = new EventoDAO();
 
-            eventoDAO.eliminar(conexion, 2);
+            for (Evento evento : eventoDAO.consultarTodas(conexion)) {
 
-            System.out.println("Evento eliminado correctamente.");
-        
+                System.out.println("ID: " + evento.getIdEvento());
+                System.out.println("Título: " + evento.getTitulo());
+                System.out.println("Descripción: " + evento.getDescripcion());
+                System.out.println("Fecha: " + evento.getFechaHora());
+                System.out.println("Costo: " + evento.getCosto());
+                System.out.println("Estado: " + evento.getEstado());
+                System.out.println("Categoría: " + evento.getIdCategoria());
+                System.out.println("Lugar: " + evento.getIdLugar());
+                System.out.println("-----------------------------");
+            }
+
         } catch (Exception e) {
             System.out.println("Error: " + e.getMessage());
         }
-    } 
+    }
 }
