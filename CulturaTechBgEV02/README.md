@@ -380,37 +380,29 @@ Desde la interfaz correspondiente al usuario se puede acceder a:
 * Configuración / Perfil.
 * Funcionalidades disponibles para el usuario autenticado.
 
+
 ### Evidencia visual — acceso del usuario
 
 Capturas correspondientes al flujo de acceso del usuario.
 
 **Imagen 1 — Acceso y perfil del usuario**
 
-```markdown
-![Acceso y configuración del perfil de usuario](assets/images/README/acceso-usuario.png)
-```
+![Acceso y configuración del perfil de usuario](web/assets/images/README/acceso-usuario.png)
 
 **Imagen 2 — Home / Inicio**
 
-```markdown
-![Home de usuario](assets/images/README/home-usuario.png)
-```
+![Home de usuario](web/assets/images/README/home-usuario.png)
 
 **Imagen 3 — Listado de eventos**
 
-```markdown
-![Listado de eventos](assets/images/README/eventos-usuario.png)
-```
+![Listado de eventos](web/assets/images/README/eventos-usuario.png)
 
 **Imagen 4 — Detalle del evento**
 
-```markdown
-![Detalle del evento](assets/images/README/detalle-evento.png)
-```
+![Detalle del evento](web/assets/images/README/detalle-evento.png)
 
 Estas imágenes permiten evidenciar visualmente el recorrido del usuario desde su acceso hasta la consulta de eventos y sus respectivos detalles.
 
----
 
 # 11. Rol ADMIN — Administrador
 
@@ -481,25 +473,23 @@ Capturas correspondientes exclusivamente al rol ADMIN.
 
 **Imagen 5 — Acceso como administrador**
 
-```markdown
-![Acceso de usuario con rol ADMIN - Panel Administrativo de CulturaTech Bogotá](assets/images/README/acceso-admin.png)
-```
+![Acceso de usuario con rol ADMIN - Panel Administrativo de CulturaTech Bogotá](web/assets/images/README/acceso-admin.png)
 
-```markdown
-![Gestión administrativa de eventos](assets/images/README/admin-eventos.png)
-```
+**Imagen 6 — Gestión administrativa de eventos**
 
-```markdown
-![Formulario administrativo](assets/images/README/admin-formulario.png)
-```
+![Gestión administrativa de eventos](web/assets/images/README/admin-eventos.png)
 
-```markdown
-![Edición de información](assets/images/README/admin-edicion.png)
-```
+**Imagen 7 — Formulario administrativo**
 
-```markdown
-![Eliminación de información](assets/images/README/admin-eliminacion.png)
-```
+![Formulario administrativo](web/assets/images/README/admin-formulario.png)
+
+**Imagen 8 — Edición de información**
+
+![Edición de información](web/assets/images/README/admin-edicion.png)
+
+**Imagen 9 — Eliminación de información**
+
+![Eliminación de información](web/assets/images/README/admin-eliminacion.png)
 
 ---
 
@@ -859,6 +849,7 @@ Módulo web integrado de CulturaTech Bogotá
 ```
 
 La presente versión corresponde a la rama `EV02` y constituye la continuidad del trabajo desarrollado en la evidencia anterior.
+
 
 
 
