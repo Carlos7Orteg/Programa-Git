@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class ConexionBD {
     private static final String URL = "jdbc:mysql://localhost:3306/culturatechbg";
     private static final String USUARIO = "root";
-    private static final String CONTRASENA = "2n7E<4j6V&1q8Y[3k";
+    private static final String CONTRASENA = "TU_CONTRASENA_LOCAL";
     
     public static Connection conectar() throws SQLException {
         try {
